@@ -1,3 +1,12 @@
+layout: post
+title: "JiGuang_resume"
+subtitle: 'resume'
+author: "JiG"
+header-style: text
+tags:
+
+- resume
+
 # 简历 :happy:
 
 ##  **个人信息**
