@@ -6,9 +6,7 @@ subtitle: 'resume'
 author: "JiG"
 header-style: text
 tags:
-
-- resume
-
+  - resume
 ---
 
 # 简历 :happy:
