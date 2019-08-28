@@ -1,8 +1,7 @@
 ---
-
 layout: post
 title: "JiGuang_resume"
-subtitle: 'resume'
+subtitle: "resume"
 author: "JiG"
 header-style: text
 tags:
