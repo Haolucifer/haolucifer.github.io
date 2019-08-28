@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: xiaoguang950203@163.com
 description: "关于程序与设计、黑客与画家 | 纪光，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @纪光的个人博客，与你一起发现更大的世界。"
 keyword: "纪光的博客, JiG Blog, 博客"
-url: "https://huangxuan.me"              # your host, for absolute URL
+url: "https://jiguang.run"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
