@@ -77,24 +77,24 @@ ResNet由微软研究院的何凯明等4名华人提出，通过使用Residual U
 ## **Residual Unit**
 ResNet由多个Residual Unit（残差模块）构成。正是由于残差模块的引入，使得ResNet可以有很深的卷积层，它通过减轻神经网络学习内容来达到这一点。假定某段神经网络的输入是x，期望输出是H(x)，一般的做法是直接使用卷积层来无限逼近映射关系，而残差模块则是学习F(x) = H(x) – x，即残差模块分担了学习任务，只需要学习F(x)的内容，而后直接与输入x相加，形成最后期望的输出值H(x) = F(x) + x。如下图所示，残差模块相当于将学习目标改变了，不再是学习一个完整的输出H(x)，只是输出和输入的残差H(x)-x。 
 
-<img src='/img/ai-imgs/resNet_1.png' width="400px"/>
+<img src='/img/ai-imgs/resnet_1.png' width="400px"/>
 
 ## **ResNet_v1_50**
 接下来，我们介绍ResNet_v1_50的网络结构。ResNet不管是多少层的结构，都分成四个主要层（不算起初的7x7卷积层和3x3最大池化层），如下图红框内即为50层结构。
 
-<img src='/img/ai-imgs/resNet_2.png' width="400px"/>
+<img src='/img/ai-imgs/resnet_2.png' width="400px"/>
 
 我们依次介绍每一层，首先如下图所示：首先是7x7卷积层和3X3的最大池化层。如下图所示，图中（7x7，64，stride=2,padding=3）表示卷积核大小为7x7，卷积核数量为64，卷积步长为2，padding大小为3。同理，（3x3，stride=2,padding=3）表示池化方法使用的3x3的卷积核，步长为2，padding大小为3。
 
-<img src='/img/ai-imgs/resNet_3.png' width="400px"/>
+<img src='/img/ai-imgs/resnet_3.png' width="400px"/>
 
 接着，如下图所示，开始了ResNet的关键结构。红框内即为Residual Unit（残差模块），每一个残差模块包含了三个卷积操作，conv2_x则共有三个相同的残差模块，需要注意的是，在我们进行残差相加的时候，需要对初始的输入（64x56x56）做一个扩围操作，它是一个（1x1，256，stride=1,padding=1）的卷积操作。
 
-<img src='/img/ai-imgs/resNet_4.png' width="400px"/>
+<img src='/img/ai-imgs/resnet_4.png' width="400px"/>
 
 接下来是conv3_x，如下图所示，它也使用了包含三个卷积层的残差模块，不同于conv2_x有三点：（1）残差模块的卷积核数量不同；（2）残差模块的数量不同，即conv3_x是四个相同的残差模块；（3）在conv3_x中，由于第一个残差模块的输入维度（256x56x56）跟它的输出维度（512x28x28）不同，需要给输入的特征做一个下采样的卷积操作。
 
-<img src='/img/ai-imgs/resNet_5.png' width="400px"/>
+<img src='/img/ai-imgs/resnet_5.png' width="400px"/>
 
 接下来的conv4_x和conv5_x都是类似的说明，此处不再赘述。
 
