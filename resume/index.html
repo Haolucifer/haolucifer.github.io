@@ -18,7 +18,7 @@ header-img: "img/post-bg-js-module.jpg"
         }
         .basicInfo {
             display: grid;
-            grid-template-columns: 50% 50%;
+            grid-template-columns: 46% 54%;
         }
 
         .infoText {
@@ -153,13 +153,19 @@ header-img: "img/post-bg-js-module.jpg"
                 </div>
             </div>
             <div class="basicInfo">
-                <div class="infoText">
+                <div class="infoText" v-if="!isMobile">
                     <span class="left-label">电 话：</span>
                     <span class="label-value"> 18012892123</span>
                 </div>
                 <div v-if="!isMobile">
                     <span class="left-label">邮&emsp;&emsp;箱：</span>
                     <span class="label-value"> 20175227095@stu.suda.edu.cn</span>
+                </div>
+            </div>
+            <div class="basicInfo" v-if="isMobile" style="grid-template-columns: 100%">
+                <div class="infoText">
+                    <span class="left-label">电 话：</span>
+                    <span class="label-value">18012892123</span>
                 </div>
             </div>
             <div class="basicInfo" v-if="isMobile" style="grid-template-columns: 100%">
@@ -228,10 +234,10 @@ header-img: "img/post-bg-js-module.jpg"
                     <span class="label-value">基于循环一致性生成对抗网络的风格迁移研究
                         <br />所需环境 ： Linux(Ubuntu16.04)、 Tesla P100
                         <br />使用语言/框架 ： python/Tensorflow
-                        <br />成果 ： <a href="https://github.com/Haolucifer/MC-GAN-in-SAR" style="color: blue">SAR Image Colorization
+                        <br />成果 ： <a href="https://github.com/Haolucifer/MC-GAN-in-SAR" style="color: blue"><strong>SAR Image Colorization
                             using Multi-domain Cycle-consistency Generative Adversarial
                             <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Network(已投 GRSL SCI
-                            三区)</a></span>
+                            三区)</strong></a></span>
                 </li>
             </ul>
             <ul class="info-list" v-if="isMobile">
@@ -251,8 +257,8 @@ header-img: "img/post-bg-js-module.jpg"
                     <span>研究成果：</span>
                     <div class="des">
                         <a href="https://github.com/Haolucifer/MC-GAN-in-SAR" style="color: blue">
-                            SAR Image Colorization using Multi-domain Cycle-consistency Generative Adversarial
-                            Network(已投 GRSL SCI 三区)
+                            <strong>SAR Image Colorization using Multi-domain Cycle-consistency Generative Adversarial
+                            Network(已投 GRSL SCI 三区)</strong>
                         </a>
                     </div>
                 </li>
@@ -277,7 +283,9 @@ header-img: "img/post-bg-js-module.jpg"
                     <label class="left-label">LR+商品项目/ Spark+逻辑回归</label>
                 </li>
                 <li>
+                    <a href="https://github.com/Haolucifer/AIDP" style="color: blue">
                     <label class="left-label">AIDP算法部署/ python3.x</label>
+                    </a>
                 </li>
             </ul>
             <div class="info-list" v-if="isMobile">
