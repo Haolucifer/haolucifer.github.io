@@ -1,3 +1,4 @@
+---
 layout:     post
 title:      “对抗生成网络与风格迁移论文整理（2018、2019）"
 author:     "JiG"
@@ -6,6 +7,7 @@ tags:
 
   - GAN
   - Style_transfer
+---
 
 
 CVPR2019(只整理了可能与通用模型改进相关的):
