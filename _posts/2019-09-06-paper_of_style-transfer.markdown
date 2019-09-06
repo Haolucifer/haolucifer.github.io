@@ -76,6 +76,16 @@ ECCV2018：
 
 
 
+\# ICCV2019:
+
+[COCO-GAN: Generation by Parts via Conditional Coordinating ](https://arxiv.org/abs/1904.00284)
+
+[PU-GAN: a Point Cloud Upsampling Adversarial Network](https://arxiv.org/abs/1907.10844)
+
+[Lifelong GAN: Continual Learning for Conditional Image Generation](https://arxiv.org/abs/1907.10107)
+
+
+
 ICLR2019:
 
 [Improving Generalization and Stability of Generative Adversarial Networks ](https://openreview.net/forum?id=ByxPYjC5KQ)
