@@ -58,7 +58,7 @@ CVPR2019(只整理了可能与通用模型改进相关的):
 
 \# ECCV 和 ICCV 每两年一次，交替开会，即有ECCV2018,ICCV2019
 
-ECCV2018：
+\## ECCV2018：
 
 [Generative Semantic Manipulation with Mask-Contrasting GAN](http://openaccess.thecvf.com/content_ECCV_2018/html/Liang_Generative_Semantic_Manipulation_ECCV_2018_paper.html)
 
@@ -76,7 +76,7 @@ ECCV2018：
 
 
 
-\# ICCV2019:
+\## ICCV2019:
 
 [COCO-GAN: Generation by Parts via Conditional Coordinating ](https://arxiv.org/abs/1904.00284)
 
@@ -86,7 +86,7 @@ ECCV2018：
 
 
 
-ICLR2019:
+\## ICLR2019:
 
 [Improving Generalization and Stability of Generative Adversarial Networks ](https://openreview.net/forum?id=ByxPYjC5KQ)
 
@@ -102,11 +102,11 @@ ICLR2019:
 
 
 
-Style transfer(不一定是生成对抗网络)：
+\# Style transfer(不一定是生成对抗网络)：
 
-[Towards Metamerism via Foveated Style Transfer ](https://openreview.net/forum?id=BJzbG20cFQ)(ICLR)
+[Towards Metamerism via Foveated Style Transfer ](https://openreview.net/forum?id=BJzbG20cFQ)(ICLR2019)
 
-CVPR:
+\## CVPR2019:
 
 [Attention-Aware Multi-Stroke Style Transfer](http://openaccess.thecvf.com/content_CVPR_2019/html/Yao_Attention-Aware_Multi-Stroke_Style_Transfer_CVPR_2019_paper.html)
 
@@ -120,7 +120,7 @@ CVPR:
 
 [Style Transfer by Relaxed Optimal Transport and Self-Similarity](http://openaccess.thecvf.com/content_CVPR_2019/html/Kolkin_Style_Transfer_by_Relaxed_Optimal_Transport_and_Self-Similarity_CVPR_2019_paper.html)
 
-ECCV2018:
+\## ECCV2018:
 
 [Neural Stereoscopic Image Style Transfer](http://openaccess.thecvf.com/content_ECCV_2018/html/Xinyu_Gong_Neural_Stereoscopic_Image_ECCV_2018_paper.html)
 
