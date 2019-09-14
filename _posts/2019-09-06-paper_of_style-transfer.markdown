@@ -84,6 +84,8 @@ CVPR2019(只整理了可能与通用模型改进相关的):
 
 [Lifelong GAN: Continual Learning for Conditional Image Generation](https://arxiv.org/abs/1907.10107)
 
+[SinGAN:Learning a Generative Model from a Single Natural Image](https://arxiv.org/pdf/1905.01164.pdf)
+
 
 
 \## ICLR2019:
