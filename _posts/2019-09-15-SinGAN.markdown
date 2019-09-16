@@ -11,7 +11,7 @@ tags:
 
  
 
-# SinGAN: Learning a Generative Model from a Single Natural Image
+# SinGAN
 
 ## Abstract
 
@@ -23,7 +23,7 @@ tags:
 
 <img src='/img/SinGAN/1.png' width="500px"/>
 
-**输入**：Single trainingimage, **输出**： Random samples from a single image
+<center>**输入**：Single trainingimage, **输出**： Random samples from a single image</center>
 
 # Method
 
