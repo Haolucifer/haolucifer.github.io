@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      “对抗生成网络与风格迁移论文整理（2018、2019）"
+title:      "对抗生成网络与风格迁移论文整理（2018、2019）"
 author:     "JiG"
 header-img: "img/post-bg-2015.jpg"
 tags: 
