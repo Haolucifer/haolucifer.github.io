@@ -24,7 +24,6 @@ tags:
 <img src='/img/SinGAN/1.png' width="500px"/>
 
 <center>**输入**：Single trainingimage, **输出**： Random samples from a single image</center>
-
 # Method
 
 我们的目标是学习一个无条件生成模型，它可以捕获单个训练图像x的内部统计信息。这个任务在概念上类似于传统的GAN设置，只是这里的训练样本是单个图像的patch，而不是来自数据库的整个图像样本。
