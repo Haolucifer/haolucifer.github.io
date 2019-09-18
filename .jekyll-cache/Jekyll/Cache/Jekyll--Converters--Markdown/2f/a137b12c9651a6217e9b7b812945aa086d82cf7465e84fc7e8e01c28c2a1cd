@@ -1,0 +1,44 @@
+I"X<h1 id="singan">SinGAN</h1>
+
+<p><a href="https://arxiv.org/pdf/1905.01164.pdf">Learning a Generativef Model from a Single Natural Image</a></p>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>我们介绍了SinGAN，一个无条件的生成模型，可以从一个单一的自然图像学习。我们的模型经过训练，能够捕捉图像内部patch的分布，然后能够生成与图像具有相同视觉内容的高质量、多样化的样本。SinGAN包含一个GANs金字塔全卷积网络，每个GAN负责学习图像不同尺度上的patch分布。这允许生成任意大小和长宽比的新样本，这些样本具有显著的可变性，但同时保持了训练图像的全局结构和精细纹理。与以往单一的图像GAN方案相比，我们的方法不仅限于纹理图像，而且没有条件(即从噪声中生成样本)。用户研究证实，生成的样本通常被混淆为真实图像。我们说明了SinGAN在广泛的图像处理任务中的实用性。</p>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>以下我们整体感知一下文章的主要工作效果，如下图所示：</p>
+
+<p><img src="/img/SinGAN/1.png" width="500px" /></p>
+
+<center>**输入**：Single trainingimage, **输出**： Random samples from a single image</center>
+<h1 id="method">Method</h1>
+
+<p>我们的目标是学习一个无条件生成模型，它可以捕获单个训练图像x的内部统计信息。这个任务在概念上类似于传统的GAN设置，只是这里的训练样本是单个图像的patch，而不是来自数据库的整个图像样本。</p>
+
+<p>我们选择不仅仅做纹理生成，而是处理更一般的自然图像。这需要捕获许多不同尺度的复杂图像结构的统计信息。例如，我们希望捕获全局属性，例如图像中大型对象的排列和形状(例如顶部的天空、底部的地面)，以及精细的细节和纹理信息。为了实现这个目标,我们生成框架如下图结构所示,由一个层次patch-GANs(马尔可夫链的鉴别器)组成,其中每个负责捕获块分布在不同规模图像x。GANs有小的接受野和受限的能力,防止他们记忆单一的图像。我们是第一个从单一的图像探索它的内部学习。</p>
+
+<p><img src="/img/SinGAN/2.png" width="500px" /></p>
+<h2 id="多尺度结构">多尺度结构</h2>
+
+<p>模型包含了金字塔$GANs{G_{0},…,G_{N}}$,与图像金字塔x:{x_{0},…,x_{N}}进行对抗训练，x_{n}表示的是输入图像x的向下缩放。每个生成器G_{n}负责产生对应于x_{n}的逼真图像样本。</p>
+
+<p>一个图像样本的生成开始于最粗糙的尺度，然后逐步经过所有的生成器到达最精细的尺寸，并且每一个尺寸都伴随着随机噪声。所有的生成器和判别器有相同的接受野，也因此随着生成过程的深入，获取到的图像尺寸逐步减小。在训练的最粗糙的尺寸处，生成任务是纯粹的做空间白高斯噪声与图像样本的映射，而没有其他条件样本作为输入。</p>
+
+<script type="math/tex; mode=display">\overline{x}_{N}=G_{N}(z_{N})</script>
+
+<p>这个层的有效接受野是图像高度的$1/2$，因此G_{N}生成了图像的通用布局和目标的全局结构。每个生成器在更细致的尺度上都添加了之前尺度上没有的细节。因此，除了第一个尺寸的空间噪声z_{n},每一个生成器都接受一个从上一个粗糙生成器生成的图像的上采样版本和噪声，如下公式所示：</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\overline{x}_{n}=G_{n}(z_{n},(\overline{x}_{n+1})\uparrow^{r}),  n<N %]]></script>
+
+<p>所有的生成器有相同的如下结构：</p>
+
+<p><img src="/img/SinGAN/3.png" width="500px" /></p>
+
+<p>当前层的最终生成图像公式为：</p>
+
+<script type="math/tex; mode=display">\overline{x}_{n}=(\overline{x}_{n+1})\uparrow^{r}+\psi_{n}(z_{n}+(\overline{x}_{n+1})\uparrow^{r})</script>
+
+:ET

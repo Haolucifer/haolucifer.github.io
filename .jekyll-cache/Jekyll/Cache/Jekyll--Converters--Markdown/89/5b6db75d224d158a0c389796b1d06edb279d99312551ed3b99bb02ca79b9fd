@@ -1,0 +1,112 @@
+I"�'<p>CVPR2019(只整理了可能与通用模型改进相关的):</p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Gecer_GANFIT_Generative_Adversarial_Network_Fitting_for_High_Fidelity_3D_Face_CVPR_2019_paper.html">GANFIT: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Mao_Mode_Seeking_Generative_Adversarial_Networks_for_Diverse_Image_Synthesis_CVPR_2019_paper.html">Mode Seeking Generative Adversarial Networks for Diverse Image Synthesis</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Huh_Feedback_Adversarial_Learning_Spatial_Feedback_for_Improving_Generative_Adversarial_Networks_CVPR_2019_paper.html">Feedback Adversarial Learning: Spatial Feedback for Improving Generative Adversarial Networks</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Lin_Towards_Optimal_Structured_CNN_Pruning_via_Generative_Adversarial_Learning_CVPR_2019_paper.html">Towards Optimal Structured CNN Pruning via Generative Adversarial Learning</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Wu_Sliced_Wasserstein_Generative_Models_CVPR_2019_paper.html">Sliced Wasserstein Generative Models</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Ghasedi_Balanced_Self-Paced_Learning_for_Generative_Adversarial_Clustering_Network_CVPR_2019_paper.html">Balanced Self-Paced Learning for Generative Adversarial Clustering Network</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Karras_A_Style-Based_Generator_Architecture_for_Generative_Adversarial_Networks_CVPR_2019_paper.html">A Style-Based Generator Architecture for Generative Adversarial Networks</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Zhu_DM-GAN_Dynamic_Memory_Generative_Adversarial_Networks_for_Text-To-Image_Synthesis_CVPR_2019_paper.html">DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-To-Image Synthesis</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Hoshen_Non-Adversarial_Image_Synthesis_With_Generative_Latent_Nearest_Neighbors_CVPR_2019_paper.html">Non-Adversarial Image Synthesis With Generative Latent Nearest Neighbors</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Eghbal-zadeh_Mixture_Density_Generative_Adversarial_Networks_CVPR_2019_paper.html">Mixture Density Generative Adversarial Networks</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Learning_Implicit_Fields_for_Generative_Shape_Modeling_CVPR_2019_paper.html">Learning Implicit Fields for Generative Shape Modeling</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Liu_Conditional_Adversarial_Generative_Flow_for_Controllable_Image_Synthesis_CVPR_2019_paper.html">Conditional Adversarial Generative Flow for Controllable Image Synthesis</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Chen_BeautyGlow_On-Demand_Makeup_Transfer_Framework_With_Reversible_Generative_Network_CVPR_2019_paper.html">BeautyGlow: On-Demand Makeup Transfer Framework With Reversible Generative Network</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Event-Based_High_Dynamic_Range_Image_and_Very_High_Frame_Rate_CVPR_2019_paper.html">Event-Based High Dynamic Range Image and Very High Frame Rate Video Generation Using Conditional Generative Adversarial Networks</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Ying_X2CT-GAN_Reconstructing_CT_From_Biplanar_X-Rays_With_Generative_Adversarial_Networks_CVPR_2019_paper.html">X2CT-GAN: Reconstructing CT From Biplanar X-Rays With Generative Adversarial Networks</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Heim_Constrained_Generative_Adversarial_Networks_for_Interactive_Image_Generation_CVPR_2019_paper.html">Constrained Generative Adversarial Networks for Interactive Image Generation</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Abbasnejad_A_Generative_Adversarial_Density_Estimator_CVPR_2019_paper.html">A Generative Adversarial Density Estimator</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Webster_Detecting_Overfitting_of_Deep_Generative_Networks_via_Latent_Recovery_CVPR_2019_paper.html">Detecting Overfitting of Deep Generative Networks via Latent Recovery</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Liu_Attribute-Aware_Face_Aging_With_Wavelet-Based_Generative_Adversarial_Networks_CVPR_2019_paper.html">Attribute-Aware Face Aging With Wavelet-Based Generative Adversarial Networks</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Jenni_On_Stabilizing_Generative_Adversarial_Training_With_Noise_CVPR_2019_paper.html">On Stabilizing Generative Adversarial Training With Noise</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Cascaded_Generative_and_Discriminative_Learning_for_Microcalcification_Detection_in_Breast_CVPR_2019_paper.html">Cascaded Generative and Discriminative Learning for Microcalcification Detection in Breast Mammograms</a></p>
+
+<p># ECCV 和 ICCV 每两年一次，交替开会，即有ECCV2018,ICCV2019</p>
+
+<p>## ECCV2018：</p>
+
+<p><a href="http://openaccess.thecvf.com/content_ECCV_2018/html/Liang_Generative_Semantic_Manipulation_ECCV_2018_paper.html">Generative Semantic Manipulation with Mask-Contrasting GAN</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_ECCV_2018/html/Jie_Liang_Sub-GAN_An_Unsupervised_ECCV_2018_paper.html">Sub-GAN: An Unsupervised Generative Model via Subspaces</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_ECCV_2018/html/Bo_Zhao_Modular_Generative_Adversarial_ECCV_2018_paper.html">Modular Generative Adversarial Networks</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_ECCV_2018/html/Jingyi_Zhang_Generative_Domain-Migration_Hashing_ECCV_2018_paper.html">Generative Domain-Migration Hashing for Sketch-to-Image Retrieval</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_ECCV_2018/html/Hong-Min_Chu_Deep_Generative_Models_ECCV_2018_paper.html">Deep Generative Models for Weakly-Supervised Multi-Label Classification</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_ECCV_2018/html/Siyeong_Lee_Deep_Recursive_HDRI_ECCV_2018_paper.html">Deep Recursive HDRI: Inverse Tone Mapping using Generative Adversarial Networks</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_ECCV_2018/html/Gang_Zhang_Generative_Adversarial_Network_ECCV_2018_paper.html">Generative Adversarial Network with Spatial Attention for Face Attribute Editing</a></p>
+
+<p>## ICCV2019:</p>
+
+<p><a href="https://arxiv.org/abs/1904.00284">COCO-GAN: Generation by Parts via Conditional Coordinating </a></p>
+
+<p><a href="https://arxiv.org/abs/1907.10844">PU-GAN: a Point Cloud Upsampling Adversarial Network</a></p>
+
+<p><a href="https://arxiv.org/abs/1907.10107">Lifelong GAN: Continual Learning for Conditional Image Generation</a></p>
+
+<p><a href="https://jiguang.run/2019/09/15/SinGAN/">SinGAN:Learning a Generative Model from a Single Natural Image</a></p>
+
+<p>## ICLR2019:</p>
+
+<p><a href="https://openreview.net/forum?id=ByxPYjC5KQ">Improving Generalization and Stability of Generative Adversarial Networks </a></p>
+
+<p><a href="https://openreview.net/forum?id=Hkl5aoR5tm">On Self Modulation for Generative Adversarial Networks </a></p>
+
+<p><a href="https://openreview.net/forum?id=HyexAiA5Fm">Scalable Unbalanced Optimal Transport using Generative Adversarial Networks</a></p>
+
+<p><a href="https://openreview.net/forum?id=Hyg_X2C5FX">GAN Dissection: Visualizing and Understanding Generative Adversarial Networks </a></p>
+
+<p><a href="https://openreview.net/forum?id=S1lDV3RcKm">MisGAN: Learning from Incomplete Data with Generative Adversarial Networks </a></p>
+
+<p><a href="https://openreview.net/forum?id=rJliMh09F7">Diversity-Sensitive Conditional Generative Adversarial Networks </a></p>
+
+<p># Style transfer(不一定是生成对抗网络)：</p>
+
+<p><a href="https://openreview.net/forum?id=BJzbG20cFQ">Towards Metamerism via Foveated Style Transfer </a>(ICLR2019)</p>
+
+<p>## CVPR2019:</p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Yao_Attention-Aware_Multi-Stroke_Style_Transfer_CVPR_2019_paper.html">Attention-Aware Multi-Stroke Style Transfer</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Li_Learning_Linear_Transformations_for_Fast_Image_and_Video_Style_Transfer_CVPR_2019_paper.html">Learning Linear Transformations for Fast Image and Video Style Transfer</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Park_Arbitrary_Style_Transfer_With_Style-Attentional_Networks_CVPR_2019_paper.html">Arbitrary Style Transfer With Style-Attentional Networks</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Puy_A_Flexible_Convolutional_Solver_for_Fast_Style_Transfers_CVPR_2019_paper.html">A Flexible Convolutional Solver for Fast Style Transfers</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Kotovenko_A_Content_Transformation_Block_for_Image_Style_Transfer_CVPR_2019_paper.html">A Content Transformation Block for Image Style Transfer</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Kolkin_Style_Transfer_by_Relaxed_Optimal_Transport_and_Self-Similarity_CVPR_2019_paper.html">Style Transfer by Relaxed Optimal Transport and Self-Similarity</a></p>
+
+<p>## ECCV2018:</p>
+
+<p><a href="http://openaccess.thecvf.com/content_ECCV_2018/html/Xinyu_Gong_Neural_Stereoscopic_Image_ECCV_2018_paper.html">Neural Stereoscopic Image Style Transfer</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_ECCV_2018/html/Yongcheng_Jing_Stroke_Controllable_Fast_ECCV_2018_paper.html">Stroke Controllable Fast Style Transfer with Adaptive Receptive Fields</a></p>
+
+<p><a href="http://openaccess.thecvf.com/content_ECCV_2018/html/Artsiom_Sanakoyeu_A_Style-aware_Content_ECCV_2018_paper.html">A Style-Aware Content Loss for Real-time HD Style Transfer</a></p>
+:ET
