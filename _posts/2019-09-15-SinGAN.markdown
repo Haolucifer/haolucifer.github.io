@@ -39,23 +39,15 @@ tags:
 
 一个图像样本的生成开始于最粗糙的尺度，然后逐步经过所有的生成器到达最精细的尺寸，并且每一个尺寸都伴随着随机噪声。所有的生成器和判别器有相同的接受野，也因此随着生成过程的深入，获取到的图像尺寸逐步减小。在训练的最粗糙的尺寸处，生成任务是纯粹的做空间白高斯噪声与图像样本的映射，而没有其他条件样本作为输入。
 
-$$
-\overline{x}_{N}=G_{N}(z_{N})
-$$
+![](http://latex.codecogs.com/gif.latex?%5Coverline%7Bx%7D_%7BN%7D%3DG_%7BN%7D%28z_%7BN%7D%29)
 
 这个层的有效接受野是图像高度的$1/2$，因此G_{N}生成了图像的通用布局和目标的全局结构。每个生成器在更细致的尺度上都添加了之前尺度上没有的细节。因此，除了第一个尺寸的空间噪声z_{n},每一个生成器都接受一个从上一个粗糙生成器生成的图像的上采样版本和噪声，如下公式所示：
 
-$$
-\overline{x}_{n}=G_{n}(z_{n},(\overline{x}_{n+1})\uparrow^{r}),  n<N
-$$
+![](http://latex.codecogs.com/gif.latex?%5Coverline%7Bx%7D_%7Bn%7D%3DG_%7Bn%7D%28z_%7Bn%7D%2C%28%5Coverline%7Bx%7D_%7Bn&plus;1%7D%29%5Cuparrow%5E%7Br%7D%29%2C%20n%3CN)
 
-所有的生成器有相同的如下结构：
-
-<img src='/img/SinGAN/3.png' width="500px"/>
+所有的生成器有相同的如下结构：<img src='/img/SinGAN/3.png' width="500px"/>
 
 当前层的最终生成图像公式为：
 
-$$
-\overline{x}_{n}=(\overline{x}_{n+1})\uparrow^{r}+\psi_{n}(z_{n}+(\overline{x}_{n+1})\uparrow^{r})
-$$
+![](http://latex.codecogs.com/gif.latex?%5Coverline%7Bx%7D_%7Bn%7D%3D%28%5Coverline%7Bx%7D_%7Bn&plus;1%7D%29%5Cuparrow%5E%7Br%7D&plus;%5Cpsi_%7Bn%7D%28z_%7Bn%7D&plus;%28%5Coverline%7Bx%7D_%7Bn&plus;1%7D%29%5Cuparrow%5E%7Br%7D%29)
 
