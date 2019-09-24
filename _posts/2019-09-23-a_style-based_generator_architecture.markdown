@@ -1,4 +1,5 @@
 ---
+mathjax:true
 layout:     post
 title:      "A Style-Based Generator Architecture for Generative Adversarial Networks读书笔记"
 author:     "JiG"
@@ -6,7 +7,7 @@ header-img: "img/post-bg-2015.jpg"
 tags: 
 
   - GAN
-  - ICCV2019_paper
+  - CVPR2019_paper
 ---
 
 
@@ -20,11 +21,11 @@ tags:
 
 如图所示左图为传统的生成器结构，而右图是改进后的基于样式的生成器结构：
 
-<img src='/img/a style-based generator/1.jpg' width='500px'/>
+<img src='/img/a_style-based_generator/1.png' width="500px"/>
 
 文章的主要特点概括如下：
 
-* 将 Latent code  z 经过 Mapping network f 做一个映射到 w, 使得图像的属性更加的解缠；
+* 将 Latent code  $z$  经过 Mapping network f 做一个映射到 w, 使得图像的属性更加的解缠；
 * 可以混合两种人脸图像的特征，从而生成新的混合两种人脸不同属性的新人脸；
 * 从图中可以看出，输入style表示着图像的不同属性，而噪声可以生成图像中无关紧要的其他属性，比如头发的样子、轮廓的微小变化或者部分的背景等等；
 * 对图像属性做解缠研究，提出了两个度量方法，分别为 Perceptual path length 和 Linear separability(这一部分对数学要求比较高，暂时没有看懂，后续补上)；
