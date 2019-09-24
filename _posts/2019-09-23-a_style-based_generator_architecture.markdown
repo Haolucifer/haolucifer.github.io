@@ -1,0 +1,38 @@
+---
+layout:     post
+title:      "A Style-Based Generator Architecture for Generative Adversarial Networks读书笔记"
+author:     "JiG"
+header-img: "img/post-bg-2015.jpg"
+tags: 
+
+  - GAN
+  - ICCV2019_paper
+---
+
+
+# [A Style-Based Generator Architecture for Generative Adversarial Networks](http://openaccess.thecvf.com/content_CVPR_2019/html/Karras_A_Style-Based_Generator_Architecture_for_Generative_Adversarial_Networks_CVPR_2019_paper.html)
+
+## Abstract
+
+我们借鉴了风格迁移的文献，为生成对抗网络中提出了一个替换的生成器结构。新的架构可以自动学习，无监督地分离高级属性（例如在人脸上进行训练时的姿势和身份）以及所生成图像（例如雀斑、头发）的随机变化，并且可以实现直观，可缩放的特定的合成控制。新的生成器在传统的质量分布指标方面相对于最新技术得到了改进，显示出明显的更好的插值特性，还更好的解缠变化的潜在因素。为了量化插值质量和解纠缠度，我们提出了两种适用于任何生成器体系结构的自动方法。最后，我们介绍了一个新的，高度多样化且高质量的人脸数据集。
+
+# Introduction
+
+如图所示左图为传统的生成器结构，而右图是改进后的基于样式的生成器结构：
+
+<img src='/img/a style-based generator/1.jpg' width='500px'/>
+
+文章的主要特点概括如下：
+
+* 将 Latent code  z 经过 Mapping network f 做一个映射到 w, 使得图像的属性更加的解缠；
+* 可以混合两种人脸图像的特征，从而生成新的混合两种人脸不同属性的新人脸；
+* 从图中可以看出，输入style表示着图像的不同属性，而噪声可以生成图像中无关紧要的其他属性，比如头发的样子、轮廓的微小变化或者部分的背景等等；
+* 对图像属性做解缠研究，提出了两个度量方法，分别为 Perceptual path length 和 Linear separability(这一部分对数学要求比较高，暂时没有看懂，后续补上)；
+* 贡献出了一个属性更加丰富的（相比于CELEBA-HQ）人脸图像数据集 FFHQ dataset。
+
+
+
+[文章所附视频点此跳转](http://stylegan.xyz/video)
+
+[github项目开源代码点此跳转](https://github.com/NVlabs/stylegan )
+
