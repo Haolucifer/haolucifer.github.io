@@ -1,4 +1,4 @@
-I"<h1 id="singan">SinGAN</h1>
+I"$<h1 id="singan">SinGAN</h1>
 
 <p><a href="https://arxiv.org/pdf/1905.01164.pdf">Learning a Generativef Model from a Single Natural Image</a></p>
 
@@ -32,7 +32,9 @@
 
 <p><img src="http://latex.codecogs.com/gif.latex?%5Coverline%7Bx%7D_%7Bn%7D%3DG_%7Bn%7D%28z_%7Bn%7D%2C%28%5Coverline%7Bx%7D_%7Bn&plus;1%7D%29%5Cuparrow%5E%7Br%7D%29%2C%20n%3CN" alt="" /></p>
 
-<p>所有的生成器有相同的如下结构：<img src="/img/SinGAN/3.png" width="500px" /></p>
+<p>所有的生成器有相同的如下结构：</p>
+
+<p><img src="/img/SinGAN/3.png" width="500px" /></p>
 
 <p>当前层的最终生成图像公式为：</p>
 

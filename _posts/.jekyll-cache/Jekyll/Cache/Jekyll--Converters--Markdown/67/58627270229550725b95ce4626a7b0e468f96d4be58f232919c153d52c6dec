@@ -1,0 +1,111 @@
+I"v<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">框架</th>
+      <th style="text-align: center">Tensorflow</th>
+      <th style="text-align: center">Pytorch</th>
+      <th style="text-align: center">MXNet</th>
+      <th style="text-align: center">Caffe</th>
+      <th style="text-align: center">Keras</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">主语言</td>
+      <td style="text-align: center">C++/cuda</td>
+      <td style="text-align: center">python</td>
+      <td style="text-align: center">C++/cuda</td>
+      <td style="text-align: center">C++/cuda</td>
+      <td style="text-align: center">python</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">接口</td>
+      <td style="text-align: center">python/matlab/java/Go</td>
+      <td style="text-align: center">python</td>
+      <td style="text-align: center">python/R/Julia/Go</td>
+      <td style="text-align: center">python/matlab/protobuf</td>
+      <td style="text-align: center">python</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">硬件</td>
+      <td style="text-align: center">CPU/GPU/Mobile</td>
+      <td style="text-align: center">CPU/GPU/Mobile</td>
+      <td style="text-align: center">CPU/GPU/Mobile</td>
+      <td style="text-align: center">CPU/GPU</td>
+      <td style="text-align: center">CPU/GPU</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">分布式</td>
+      <td style="text-align: center">Y</td>
+      <td style="text-align: center">Y</td>
+      <td style="text-align: center">Y</td>
+      <td style="text-align: center">N</td>
+      <td style="text-align: center">Y</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">速度</td>
+      <td style="text-align: center">中等</td>
+      <td style="text-align: center">中等</td>
+      <td style="text-align: center">快</td>
+      <td style="text-align: center">快</td>
+      <td style="text-align: center">慢</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">灵活性</td>
+      <td style="text-align: center">较好</td>
+      <td style="text-align: center">好</td>
+      <td style="text-align: center">较好</td>
+      <td style="text-align: center">一般</td>
+      <td style="text-align: center">一般</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">文档</td>
+      <td style="text-align: center">全面（中/英）</td>
+      <td style="text-align: center">全面/（中/英）</td>
+      <td style="text-align: center">全面（英）</td>
+      <td style="text-align: center">一般（英）</td>
+      <td style="text-align: center">全面（中/英）</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">适合模型</td>
+      <td style="text-align: center">CNN/RNN</td>
+      <td style="text-align: center">CNN/RNN</td>
+      <td style="text-align: center">CNN</td>
+      <td style="text-align: center">CNN</td>
+      <td style="text-align: center">CNN/RNN</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">命令式</td>
+      <td style="text-align: center">N</td>
+      <td style="text-align: center">Y</td>
+      <td style="text-align: center">Y</td>
+      <td style="text-align: center">N</td>
+      <td style="text-align: center">N</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">声明式</td>
+      <td style="text-align: center">Y</td>
+      <td style="text-align: center">N</td>
+      <td style="text-align: center">Y</td>
+      <td style="text-align: center">Y</td>
+      <td style="text-align: center">Y</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">社区</td>
+      <td style="text-align: center">活跃</td>
+      <td style="text-align: center">活跃</td>
+      <td style="text-align: center">一般</td>
+      <td style="text-align: center">一般</td>
+      <td style="text-align: center">一般</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">开发者</td>
+      <td style="text-align: center">Google</td>
+      <td style="text-align: center">Facebook</td>
+      <td style="text-align: center">李沐/陈天奇等</td>
+      <td style="text-align: center">贾杨清</td>
+      <td style="text-align: center">Google</td>
+    </tr>
+  </tbody>
+</table>
+:ET
