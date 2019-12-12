@@ -24,7 +24,7 @@ CVPR2019(只整理了可能与通用模型改进相关的):
 
 [Balanced Self-Paced Learning for Generative Adversarial Clustering Network](http://openaccess.thecvf.com/content_CVPR_2019/html/Ghasedi_Balanced_Self-Paced_Learning_for_Generative_Adversarial_Clustering_Network_CVPR_2019_paper.html)
 
-[A Style-Based Generator Architecture for Generative Adversarial Networks](http://openaccess.thecvf.com/content_CVPR_2019/html/Karras_A_Style-Based_Generator_Architecture_for_Generative_Adversarial_Networks_CVPR_2019_paper.html)
+[A Style-Based Generator Architecture for Generative Adversarial Networks（已读）](http://openaccess.thecvf.com/content_CVPR_2019/html/Karras_A_Style-Based_Generator_Architecture_for_Generative_Adversarial_Networks_CVPR_2019_paper.html)
 
 [DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-To-Image Synthesis](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhu_DM-GAN_Dynamic_Memory_Generative_Adversarial_Networks_for_Text-To-Image_Synthesis_CVPR_2019_paper.html)
 
@@ -84,7 +84,7 @@ CVPR2019(只整理了可能与通用模型改进相关的):
 
 [Lifelong GAN: Continual Learning for Conditional Image Generation](https://arxiv.org/abs/1907.10107)
 
-[SinGAN:Learning a Generative Model from a Single Natural Image](/2019/09/15/SinGAN/)
+[SinGAN:Learning a Generative Model from a Single Natural Image（已读）](/2019/09/15/SinGAN/)
 
 
 
@@ -128,4 +128,4 @@ CVPR2019(只整理了可能与通用模型改进相关的):
 
 [Stroke Controllable Fast Style Transfer with Adaptive Receptive Fields](http://openaccess.thecvf.com/content_ECCV_2018/html/Yongcheng_Jing_Stroke_Controllable_Fast_ECCV_2018_paper.html)
 
-[A Style-Aware Content Loss for Real-time HD Style Transfer](http://openaccess.thecvf.com/content_ECCV_2018/html/Artsiom_Sanakoyeu_A_Style-aware_Content_ECCV_2018_paper.html)
+[A Style-Aware Content Loss for Real-time HD Style Transfer（已读）](http://openaccess.thecvf.com/content_ECCV_2018/html/Artsiom_Sanakoyeu_A_Style-aware_Content_ECCV_2018_paper.html)
