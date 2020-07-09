@@ -12,5 +12,9 @@ tags:
 
 blaze a new trail :开辟了一条新道路；
 
+a pressing demand :一个迫切的需求；
+
+to the best of my knowledge :据我所知；
+
 
 
